@@ -1,0 +1,32 @@
+conda create -n gui python=3.9 -y
+conda activate gui
+conda env list
+conda list 
+conda remove -n <venv> --all -y
+conda create --name <myclone> --clone <venv>
+
+rm -rf venv         >> for Linux
+rmdir venv/s     >> for Windows
+
+
+
+
+
+
+pip install tqdm
+pip install pillow
+pip install argparse
+pip install joblib==1.1.0
+pip install opencv-python==4.6.0.66
+pip install onnx==1.10.1
+pip install onnxruntime==1.10.0
+pip install onnxruntime-gpu==1.1.0
+pip install numpy==1.19.5
+
+pip install -U numpy
+
+
+pip install mindspore       (can be only for python==3.9 )
+https://www.mindspore.cn/install/en
+
+
